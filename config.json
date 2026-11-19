@@ -1,0 +1,64 @@
+{
+  "active_profile": "DeepSeek",
+  "profiles": {
+    "DeepSeek": {
+      "protocol": "openai",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key": "sk-51b8ad232e014faf9e1d8baca0d566f8",
+      "model": "deepseek-chat"
+    },
+    "Kimi (Moonshot)": {
+      "protocol": "openai",
+      "base_url": "https://api.moonshot.cn/v1",
+      "api_key": "",
+      "model": "moonshot-v1-8k"
+    },
+    "智谱GLM": {
+      "protocol": "openai",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "api_key": "",
+      "model": "glm-4-flash"
+    },
+    "通义千问": {
+      "protocol": "openai",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api_key": "",
+      "model": "qwen-plus"
+    },
+    "豆包(火山方舟)": {
+      "protocol": "openai",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "api_key": "",
+      "model": "doubao-1-5-lite-32k-250115"
+    },
+    "OpenAI": {
+      "protocol": "openai",
+      "base_url": "https://api.openai.com/v1",
+      "api_key": "",
+      "model": "gpt-4o-mini"
+    },
+    "Claude (Anthropic)": {
+      "protocol": "anthropic",
+      "base_url": "https://api.anthropic.com",
+      "api_key": "",
+      "model": "claude-haiku-4-5"
+    }
+  },
+  "pet": {
+    "name": "若",
+    "assets_dir": "assets/pets/neko",
+    "height": 300,
+    "animate": false,
+    "frame_ms": 150,
+    "bubble_duration_s": 15,
+    "position": [
+      1584,
+      1266
+    ]
+  },
+  "chat": {
+    "max_history": 20,
+    "temperature": 0.8,
+    "max_tokens": 1024
+  }
+}
